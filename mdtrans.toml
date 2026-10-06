@@ -1,0 +1,13 @@
+# md-translate project config
+source_lang = "en"              # language of the source files
+targets = ["vi"]                # target languages
+files = ["docs/en/README.md"]   # globs relative to this file
+out = "docs/{lang}/{name}"      # output template: {lang} {path} {dir} {name} {stem}
+# glossary = "glossary.json"    # {"term": {"vi": "thuật ngữ", "note": "optional"}}
+# rules = "rules/{lang}.md"     # free-text style rules per target language
+unit_heading_level = 3          # new unit at headings this deep or shallower
+max_unit_chars = 6000           # long sections split at blank lines
+protect = []                    # regexes for lines kept byte-identical, e.g. '^- Source: .*$'
+# banned = { vi = ['\bđược tiến hành\b'] }   # calques that fail verify
+workdir = ".mdtrans"            # state dir; add to .gitignore
+concurrency = 2                 # parallel LLM calls
