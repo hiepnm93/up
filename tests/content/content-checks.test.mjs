@@ -214,3 +214,9 @@ test("the Vietnamese README mirror rewrites links to docs/vi and shared assets",
   const expected = '[中文](docs/README.md) | [English](docs/en/README.md) | Tiếng Việt\n[Read](docs/vi/threads/part-1/0-cefr.md#a) <a href="./docs/vi/templates/learning-state.md">T</a> <a href="./docs/vi/book-downloads.md">D</a> <a href="./docs/public/downloads/g.pdf">P</a> <img src="./docs/assets/x.webp">';
   assert.equal(repositoryReadmeFromVi(source), expected);
 });
+
+test("the Vietnamese README mirror breaks link groups and cards onto separate lines for GitHub", () => {
+  const source = '  <a href="./book-downloads">D</a>\n  <a class="guide-path" href="./projects"><strong>T</strong>desc</a>\n    <figcaption><strong>F</strong>cap</figcaption>';
+  const expected = '  <a href="./docs/vi/book-downloads.md">D</a><br>\n  <a class="guide-path" href="./docs/vi/projects.md"><strong>T</strong><br>desc</a><br><br>\n    <figcaption><strong>F</strong><br>cap</figcaption>';
+  assert.equal(repositoryReadmeFromVi(source), expected);
+});

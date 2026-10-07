@@ -18,27 +18,27 @@ updated: 2026-10-04
 Phụ đề: **Cẩm nang học tập suốt đời cho kỷ nguyên AI**. Bản thảo luôn cập nhật này bắt đầu từ việc học tiếng Anh và tiếp tục mở rộng sang học AI, các dự án thực tế, khởi nghiệp, phục hồi, và công việc lấy lại cuộc đời của chính bạn bằng từng hành động nhỏ một.
 
 <div class="book-meta" aria-label="Book information">
-  <span>Bản thảo luôn cập nhật</span>
-  <a href="./docs/vi/book-downloads.md">Trung tâm tải xuống</a>
-  <a href="./docs/public/downloads/life-level-up-guide-en.epub" download>Tải EPUB tiếng Anh</a>
-  <a href="./docs/public/downloads/life-level-up-guide-zh.epub" download>Tải EPUB tiếng Trung</a>
-  <a href="./docs/public/downloads/life-level-up-guide-en.pdf" download>Tải PDF tiếng Anh</a>
-  <a href="./docs/public/downloads/life-level-up-guide-zh.pdf" download>Tải PDF tiếng Trung</a>
-  <a href="https://github.com/byoungd/up">Nguồn và đính chính</a>
-  <a href="./docs/vi/templates/reader-field-note.md">Ghi chú thực tế dành cho người đọc</a>
-  <a href="https://creativecommons.org/licenses/by-nc/4.0/">Văn bản CC BY-NC 4.0</a>
+  <span>Bản thảo luôn cập nhật</span><br>
+  <a href="./docs/vi/book-downloads.md">Trung tâm tải xuống</a><br>
+  <a href="./docs/public/downloads/life-level-up-guide-en.epub" download>Tải EPUB tiếng Anh</a><br>
+  <a href="./docs/public/downloads/life-level-up-guide-zh.epub" download>Tải EPUB tiếng Trung</a><br>
+  <a href="./docs/public/downloads/life-level-up-guide-en.pdf" download>Tải PDF tiếng Anh</a><br>
+  <a href="./docs/public/downloads/life-level-up-guide-zh.pdf" download>Tải PDF tiếng Trung</a><br>
+  <a href="https://github.com/byoungd/up">Nguồn và đính chính</a><br>
+  <a href="./docs/vi/templates/reader-field-note.md">Ghi chú thực tế dành cho người đọc</a><br>
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/">Văn bản CC BY-NC 4.0</a><br>
 </div>
 
 <div class="quick-start" aria-labelledby="quick-start-title">
   <div class="quick-start-heading">
-    <span class="quick-start-kicker">BẮT ĐẦU TỪ ĐÂY</span>
+    <br><span class="quick-start-kicker">BẮT ĐẦU TỪ ĐÂY</span><br>
     <h2 id="quick-start-title">Chọn một hành động trước khi chọn đọc bao nhiêu</h2>
     <p>Bạn không cần đọc toàn bộ cuốn sách trong lần truy cập đầu tiên. Hãy chọn một lối vào cho hôm nay, hoàn thành một hành động nhỏ, và để kết quả chỉ đường sang trang tiếp theo.</p>
   </div>
   <div class="quick-start-actions">
-    <a class="quick-start-action" href="./docs/vi/threads/part-0/reader-guide.md"><strong>Tôi không biết bắt đầu từ đâu</strong><span>Hãy dùng Cẩm nang dành cho người đọc để chọn theo vấn đề và biết khi nào cần lưu giữ bằng chứng hoặc quay lại rà soát.</span></a>
-    <a class="quick-start-action" href="./docs/vi/templates/learning-state.md"><strong>Tôi muốn hoàn thành một việc hôm nay</strong><span>Dành năm phút để viết ra vấn đề thực sự, bằng chứng hiện có, hành động nhỏ nhất, và ranh giới của nó, trước khi quyết định bạn có cần bản ghi đầy đủ hay không.</span></a>
-    <a class="quick-start-action" href="./docs/vi/threads/part-1/0-cefr.md"><strong>Tôi muốn kiểm tra một kỹ năng tiếng Anh</strong><span>Hãy bắt đầu từ một tình huống thực tế, lưu lại mẫu đầu tiên, và chọn một tuyến luyện tập trong nghe, nói, đọc, hoặc viết.</span></a>
+    <a class="quick-start-action" href="./docs/vi/threads/part-0/reader-guide.md"><strong>Tôi không biết bắt đầu từ đâu</strong><br><span>Hãy dùng Cẩm nang dành cho người đọc để chọn theo vấn đề và biết khi nào cần lưu giữ bằng chứng hoặc quay lại rà soát.</span></a><br><br>
+    <a class="quick-start-action" href="./docs/vi/templates/learning-state.md"><strong>Tôi muốn hoàn thành một việc hôm nay</strong><br><span>Dành năm phút để viết ra vấn đề thực sự, bằng chứng hiện có, hành động nhỏ nhất, và ranh giới của nó, trước khi quyết định bạn có cần bản ghi đầy đủ hay không.</span></a><br><br>
+    <a class="quick-start-action" href="./docs/vi/threads/part-1/0-cefr.md"><strong>Tôi muốn kiểm tra một kỹ năng tiếng Anh</strong><br><span>Hãy bắt đầu từ một tình huống thực tế, lưu lại mẫu đầu tiên, và chọn một tuyến luyện tập trong nghe, nói, đọc, hoặc viết.</span></a><br><br>
   </div>
 </div>
 
@@ -62,25 +62,25 @@ Nó cũng tách bạch ba loại tuyên bố:
 
 <div class="guide-paths" aria-label="Reading paths">
   <section class="guide-path-group" aria-labelledby="guide-foundation"><div class="guide-path-group-heading"><span class="guide-path-kicker">01</span><h2 id="guide-foundation">Xây dựng nền tảng</h2><p>Đặt vấn đề, ngôn ngữ và hành động hằng ngày trên cùng một bản đồ.</p></div><div class="guide-path-group-items">
-    <a class="guide-path" href="./docs/vi/templates/learning-state.md"><strong>Hệ thống học tập suốt đời</strong>Bắt đầu từ một vấn đề thực tế, một mốc năng lực hiện tại và một nhiệm vụ tối thiểu để mỗi chu kỳ có thể tiếp tục, được kiểm tra lại và chuyển giao.</a>
-    <a class="guide-path" href="./docs/vi/threads/part-1/0-cefr.md"><strong>Nền tảng: Tiếng Anh</strong>Dùng tiếng Anh để tiếp cận tri thức toàn cầu, tài liệu kỹ thuật và các công cụ AI quốc tế, bước vào môi trường làm việc đa văn hóa nhờ khả năng truyền đạt rõ ràng thay vì cố giống người bản xứ về phát âm.</a>
-    <a class="guide-path" href="./docs/vi/threads/part-1/grammar.md"><strong>Ngữ pháp để diễn đạt thực tế</strong>Bắt đầu từ việc thời gian, trách nhiệm, điều kiện và mức độ chắc chắn có được hiểu đúng hay không, rồi kiểm tra lại một cấu trúc có tác động lớn trong mười bốn ngày thay vì học thuộc mọi quy tắc trước.</a>
-    <a class="guide-path" href="./docs/vi/threads/part-1/6-writing.md"><strong>Viết và bàn giao không đồng bộ</strong>Giữ lại bản nháp tự viết, nguồn dẫn chứng và lý do chỉnh sửa để email, báo cáo, quyết định và bàn giao vẫn dùng được khi tác giả không trực tuyến.</a>
+    <a class="guide-path" href="./docs/vi/templates/learning-state.md"><strong>Hệ thống học tập suốt đời</strong><br>Bắt đầu từ một vấn đề thực tế, một mốc năng lực hiện tại và một nhiệm vụ tối thiểu để mỗi chu kỳ có thể tiếp tục, được kiểm tra lại và chuyển giao.</a><br><br>
+    <a class="guide-path" href="./docs/vi/threads/part-1/0-cefr.md"><strong>Nền tảng: Tiếng Anh</strong><br>Dùng tiếng Anh để tiếp cận tri thức toàn cầu, tài liệu kỹ thuật và các công cụ AI quốc tế, bước vào môi trường làm việc đa văn hóa nhờ khả năng truyền đạt rõ ràng thay vì cố giống người bản xứ về phát âm.</a><br><br>
+    <a class="guide-path" href="./docs/vi/threads/part-1/grammar.md"><strong>Ngữ pháp để diễn đạt thực tế</strong><br>Bắt đầu từ việc thời gian, trách nhiệm, điều kiện và mức độ chắc chắn có được hiểu đúng hay không, rồi kiểm tra lại một cấu trúc có tác động lớn trong mười bốn ngày thay vì học thuộc mọi quy tắc trước.</a><br><br>
+    <a class="guide-path" href="./docs/vi/threads/part-1/6-writing.md"><strong>Viết và bàn giao không đồng bộ</strong><br>Giữ lại bản nháp tự viết, nguồn dẫn chứng và lý do chỉnh sửa để email, báo cáo, quyết định và bàn giao vẫn dùng được khi tác giả không trực tuyến.</a><br><br>
   </div></section>
   <section class="guide-path-group" aria-labelledby="guide-amplify"><div class="guide-path-group-heading"><span class="guide-path-kicker">02</span><h2 id="guide-amplify">Khuếch đại năng lực bằng công cụ</h2><p>Để AI tăng tốc việc đặt câu hỏi và xác minh, trong khi con người giữ quyền phán đoán, kiểm thử và trách nhiệm.</p></div><div class="guide-path-group-items">
-    <a class="guide-path" href="./docs/vi/threads/part-3/1-ai-learning.md"><strong>Học mọi thứ với AI</strong>Dùng AI để đặt câu hỏi, nghiên cứu và nhận phản hồi, đồng thời giữ việc kiểm chứng sự thật và phán quyết cuối cùng trong tay con người.</a>
-    <a class="guide-path" href="./docs/vi/threads/part-3/2-ai-development-and-resource-layer.md"><strong>Dự án AI và kinh doanh tầng tài nguyên</strong>Tiến từ yêu cầu, bản mẫu, mã nguồn và kiểm thử đến truy cập mô hình, quản trị, bàn giao cho doanh nghiệp và thẩm định mô hình kinh doanh.</a>
+    <a class="guide-path" href="./docs/vi/threads/part-3/1-ai-learning.md"><strong>Học mọi thứ với AI</strong><br>Dùng AI để đặt câu hỏi, nghiên cứu và nhận phản hồi, đồng thời giữ việc kiểm chứng sự thật và phán quyết cuối cùng trong tay con người.</a><br><br>
+    <a class="guide-path" href="./docs/vi/threads/part-3/2-ai-development-and-resource-layer.md"><strong>Dự án AI và kinh doanh tầng tài nguyên</strong><br>Tiến từ yêu cầu, bản mẫu, mã nguồn và kiểm thử đến truy cập mô hình, quản trị, bàn giao cho doanh nghiệp và thẩm định mô hình kinh doanh.</a><br><br>
   </div></section>
   <section class="guide-path-group" aria-labelledby="guide-life"><div class="guide-path-group-heading"><span class="guide-path-kicker">03</span><h2 id="guide-life">Bước vào đời sống thực</h2><p>Mang việc học vào công việc, gia đình, các mối quan hệ và trách nhiệm của tác giả.</p></div><div class="guide-path-group-items">
-    <a class="guide-path" href="./docs/vi/threads/part-1/8-job-search-english.md"><strong>Tìm việc toàn cầu và làm việc từ xa</strong>Biến mô tả công việc thành giao tiếp với nhà tuyển dụng, giải thích dự án, xử lý câu hỏi xa lạ và viết không đồng bộ, rồi dùng sản phẩm thực để xác định khoảng trống tiếp theo cần vá.</a>
-    <a class="guide-path" href="./docs/vi/threads/part-4/family-learning.md"><strong>Gia đình và học tập cấp trung học cơ sở</strong>Để người học cùng tham gia xác định mục tiêu trong khi người lớn bảo vệ môi trường, quyền riêng tư và an toàn; dùng bằng chứng tích lũy trong mười bốn ngày thay vì giám sát hoặc làm thay.</a>
-    <a class="guide-path" href="./docs/vi/threads/part-2/care-and-carry-on.md"><strong>Chăm sóc những người xung quanh</strong>Biến sự chăm sóc thành lắng nghe, giúp đỡ thiết thực và cùng làm việc chung. Chấp nhận được hỗ trợ khi cả hai bên đều sẵn lòng và có khả năng, giữ sự ấm áp đi cùng ranh giới rõ ràng.</a>
-    <a class="guide-path" href="./docs/vi/threads/part-2/my-story.md"><strong>Cân xét lại cuộc đời và phục hồi</strong>Thừa nhận thất bại và cái giá phải trả, rồi xây dựng lại phán đoán, trật tự và hành động sau gián đoạn.</a>
-    <a class="guide-path" href="./docs/vi/projects.md"><strong>Dự án và thực hành của tác giả</strong>Công khai rõ ràng về liên kết, mục đích, ngày cập nhật và việc không nhận tài trợ để niềm tin không phụ thuộc vào sự đoán mò.</a>
+    <a class="guide-path" href="./docs/vi/threads/part-1/8-job-search-english.md"><strong>Tìm việc toàn cầu và làm việc từ xa</strong><br>Biến mô tả công việc thành giao tiếp với nhà tuyển dụng, giải thích dự án, xử lý câu hỏi xa lạ và viết không đồng bộ, rồi dùng sản phẩm thực để xác định khoảng trống tiếp theo cần vá.</a><br><br>
+    <a class="guide-path" href="./docs/vi/threads/part-4/family-learning.md"><strong>Gia đình và học tập cấp trung học cơ sở</strong><br>Để người học cùng tham gia xác định mục tiêu trong khi người lớn bảo vệ môi trường, quyền riêng tư và an toàn; dùng bằng chứng tích lũy trong mười bốn ngày thay vì giám sát hoặc làm thay.</a><br><br>
+    <a class="guide-path" href="./docs/vi/threads/part-2/care-and-carry-on.md"><strong>Chăm sóc những người xung quanh</strong><br>Biến sự chăm sóc thành lắng nghe, giúp đỡ thiết thực và cùng làm việc chung. Chấp nhận được hỗ trợ khi cả hai bên đều sẵn lòng và có khả năng, giữ sự ấm áp đi cùng ranh giới rõ ràng.</a><br><br>
+    <a class="guide-path" href="./docs/vi/threads/part-2/my-story.md"><strong>Cân xét lại cuộc đời và phục hồi</strong><br>Thừa nhận thất bại và cái giá phải trả, rồi xây dựng lại phán đoán, trật tự và hành động sau gián đoạn.</a><br><br>
+    <a class="guide-path" href="./docs/vi/projects.md"><strong>Dự án và thực hành của tác giả</strong><br>Công khai rõ ràng về liên kết, mục đích, ngày cập nhật và việc không nhận tài trợ để niềm tin không phụ thuộc vào sự đoán mò.</a><br><br>
   </div></section>
   <section class="guide-path-group guide-path-group-external" aria-labelledby="guide-external"><div class="guide-path-group-heading"><span class="guide-path-kicker">04</span><h2 id="guide-external">Tài nguyên bên thứ ba</h2><p>Các điểm truy cập bên ngoài mang tính tùy chọn, không phải lời xác nhận về an toàn, chất lượng hay tuân thủ từ cuốn sách này hoặc tác giả.</p></div><div class="guide-path-group-items">
-    <a class="guide-path" href="https://biezou.com/" target="_blank" rel="noopener noreferrer"><strong>Gợi ý cầu nối AI: biezou.com</strong>Trang chính thức mô tả một cổng API AI hợp nhất và bảng điều khiển quản trị. Hãy coi đây là điểm truy cập bên thứ ba tùy chọn và tự kiểm tra điều khoản, giá cả, quyền riêng tư và tính khả dụng trước khi dùng.</a>
-    <a class="guide-path" href="https://t.me/OpenHuge_ai" target="_blank" rel="noopener noreferrer"><strong>Tài nguyên AI trên Telegram: OpenHuge_ai</strong>Một kênh Telegram bên thứ ba để khám phá tài nguyên AI. Bài đăng trên kênh, các liên kết ra ngoài và tính khả dụng đều có thể thay đổi; hãy kiểm chứng nguồn, quyền riêng tư, bản quyền và rủi ro bảo mật trước khi dùng.</a>
+    <a class="guide-path" href="https://biezou.com/" target="_blank" rel="noopener noreferrer"><strong>Gợi ý cầu nối AI: biezou.com</strong><br>Trang chính thức mô tả một cổng API AI hợp nhất và bảng điều khiển quản trị. Hãy coi đây là điểm truy cập bên thứ ba tùy chọn và tự kiểm tra điều khoản, giá cả, quyền riêng tư và tính khả dụng trước khi dùng.</a><br><br>
+    <a class="guide-path" href="https://t.me/OpenHuge_ai" target="_blank" rel="noopener noreferrer"><strong>Tài nguyên AI trên Telegram: OpenHuge_ai</strong><br>Một kênh Telegram bên thứ ba để khám phá tài nguyên AI. Bài đăng trên kênh, các liên kết ra ngoài và tính khả dụng đều có thể thay đổi; hãy kiểm chứng nguồn, quyền riêng tư, bản quyền và rủi ro bảo mật trước khi dùng.</a><br><br>
   </div></section>
 </div>
 
@@ -182,11 +182,11 @@ Một phương pháp chỉ bộc lộ sức mạnh của nó sau khi bước và
 <div class="latest-updates">
   <figure class="latest-update">
     <img src="./docs/assets/latest/single-again.webp" alt="Han Xiankai with his partner" width="1000" height="1402" loading="lazy" decoding="async" fetchpriority="low" />
-    <figcaption><strong>Một lần nữa tin vào cuộc gặp gỡ</strong>Sau khi một mối quan hệ khép lại, sau quá trình hồi phục và công cuộc sắp xếp lại cuộc sống, Hàn Tiên Khải đã bắt đầu một mối quan hệ mới. Bắt đầu lại không xóa đi quá khứ, nhưng cho thấy cuộc sống vẫn có thể tiếp tục lớn lên.</figcaption>
+    <figcaption><strong>Một lần nữa tin vào cuộc gặp gỡ</strong><br>Sau khi một mối quan hệ khép lại, sau quá trình hồi phục và công cuộc sắp xếp lại cuộc sống, Hàn Tiên Khải đã bắt đầu một mối quan hệ mới. Bắt đầu lại không xóa đi quá khứ, nhưng cho thấy cuộc sống vẫn có thể tiếp tục lớn lên.</figcaption>
   </figure>
   <figure class="latest-update">
     <img class="latest-update-visit-photo" src="./docs/assets/latest/current-qwen.jpg" alt="Han Xiankai viewing a Qwen display during a visit to Alibaba" width="1706" height="1279" loading="lazy" decoding="async" fetchpriority="low" />
-    <figcaption><strong>Ghé thăm Alibaba</strong>Tôi đã đến thăm Alibaba để tìm hiểu về Qwen tại khu trưng bày của họ.</figcaption>
+    <figcaption><strong>Ghé thăm Alibaba</strong><br>Tôi đã đến thăm Alibaba để tìm hiểu về Qwen tại khu trưng bày của họ.</figcaption>
   </figure>
 </div>
 

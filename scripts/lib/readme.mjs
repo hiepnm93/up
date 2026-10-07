@@ -22,5 +22,10 @@ export function repositoryReadmeFromVi(source) {
     .replace(/\]\((projects|practice|book-downloads)\.md([#?][^)]*)?\)/g, "](docs/vi/$1.md$2)")
     .replace(/href="\.\/((?:threads|templates|reference)\/[^"#?]+|projects|practice|book-downloads)(?:\.md)?([?#][^"]*)?"/g, (_match, pathname, suffix = "") => {
       return `href="./docs/vi/${pathname}.md${suffix}"`;
-    });
+    })
+    // GitHub drops the site CSS, so put each link/card on its own line.
+    .replace(/^(\s*<(?:a|figcaption)\b[^\n]*?<strong>[^<]*<\/strong>)(?=<span>|[^<\s])/gm, "$1<br>")
+    .replace(/^(\s*<a class="(?:quick-start-action|guide-path)"[^\n]*<\/a>)$/gm, "$1<br><br>")
+    .replace(/^(\s*<(?:a|span)\b[^\n]*<\/(?:a|span)>)$/gm, (line) => (line.endsWith("<br>") ? line : `${line}<br>`))
+    .replace('<span class="quick-start-kicker">', '<br><span class="quick-start-kicker">');
 }
