@@ -17,7 +17,7 @@ import {
   navigationProblems,
   parseFrontmatter as parseFrontmatterText,
 } from "./lib/content-checks.mjs";
-import { repositoryReadmeFromDocs } from "./lib/readme.mjs";
+import { repositoryReadmeFromVi } from "./lib/readme.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const DOCS = join(ROOT, "docs");
@@ -263,11 +263,11 @@ function checkStaleStrings(markdownFiles) {
 }
 
 function checkReadmeMirror() {
-  const source = readFileSync(join(DOCS, "README.md"), "utf8");
-  const expected = repositoryReadmeFromDocs(source);
+  const source = readFileSync(join(DOCS, "vi/README.md"), "utf8");
+  const expected = repositoryReadmeFromVi(source);
   const actual = readFileSync(join(ROOT, "README.md"), "utf8");
   if (expected !== actual) {
-    addError(join(ROOT, "README.md"), 1, "未与 docs/README.md 同步；运行 npm run sync");
+    addError(join(ROOT, "README.md"), 1, "未与 docs/vi/README.md 同步；运行 npm run sync");
   }
 }
 

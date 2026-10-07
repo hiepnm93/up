@@ -12,7 +12,7 @@ import {
   publicationDate,
   requiresSourceReview,
 } from "../../scripts/lib/content-checks.mjs";
-import { repositoryReadmeFromDocs } from "../../scripts/lib/readme.mjs";
+import { repositoryReadmeFromDocs, repositoryReadmeFromVi } from "../../scripts/lib/readme.mjs";
 
 const NOW = Date.parse("2026-09-19T04:00:00Z");
 const metadata = (extra = "") => `---\ntitle: Example\ndescription: A sufficiently specific description of this example page.\nupdated: 2026-09-19\n${extra}---\n`;
@@ -207,4 +207,10 @@ test("the README mirror transforms practice and preserves suffixes without dupli
 test("the README mirror preserves upstream reference and download handling", () => {
   const source = '[Glossary](reference/glossary.md) <a href="./downloads/guide.epub">Download</a>';
   assert.equal(repositoryReadmeFromDocs(source), '[Glossary](docs/reference/glossary.md) <a href="./docs/public/downloads/guide.epub">Download</a>');
+});
+
+test("the Vietnamese README mirror rewrites links to docs/vi and shared assets", () => {
+  const source = '[中文](https://byoungd.github.io/up/) | [English](../en/) | Tiếng Việt\n[Read](threads/part-1/0-cefr.md#a) <a href="./templates/learning-state">T</a> <a href="./book-downloads">D</a> <a href="../downloads/g.pdf">P</a> <img src="../assets/x.webp">';
+  const expected = '[中文](docs/README.md) | [English](docs/en/README.md) | Tiếng Việt\n[Read](docs/vi/threads/part-1/0-cefr.md#a) <a href="./docs/vi/templates/learning-state.md">T</a> <a href="./docs/vi/book-downloads.md">D</a> <a href="./docs/public/downloads/g.pdf">P</a> <img src="./docs/assets/x.webp">';
+  assert.equal(repositoryReadmeFromVi(source), expected);
 });

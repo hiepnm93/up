@@ -11,3 +11,16 @@ export function repositoryReadmeFromDocs(source) {
       return `href="./docs/${pathname.replace(/\.md$/, "")}.md${suffix}"`;
     });
 }
+
+// Fork: the repository README mirrors the Vietnamese homepage (docs/vi/README.md).
+export function repositoryReadmeFromVi(source) {
+  return source
+    .replace("[中文](https://byoungd.github.io/up/) | [English](../en/)", "[中文](docs/README.md) | [English](docs/en/README.md)")
+    .replace(/src="\.\.\/assets\//g, 'src="./docs/assets/')
+    .replace(/href="\.\.\/downloads\//g, 'href="./docs/public/downloads/')
+    .replace(/\]\((threads|templates|reference)\//g, "](docs/vi/$1/")
+    .replace(/\]\((projects|practice|book-downloads)\.md([#?][^)]*)?\)/g, "](docs/vi/$1.md$2)")
+    .replace(/href="\.\/((?:threads|templates|reference)\/[^"#?]+|projects|practice|book-downloads)(?:\.md)?([?#][^"]*)?"/g, (_match, pathname, suffix = "") => {
+      return `href="./docs/vi/${pathname}.md${suffix}"`;
+    });
+}
