@@ -181,11 +181,11 @@ Một phương pháp chỉ bộc lộ sức mạnh của nó sau khi bước và
 
 <div class="latest-updates">
   <figure class="latest-update">
-    <img src="./docs/assets/latest/single-again.webp" alt="Han Xiankai with his partner" width="1000" height="1402" loading="lazy" decoding="async" fetchpriority="low" />
+    <img src="./docs/assets/latest/chibi-new-start.svg" alt="Minh họa chibi cầm chậu mầm cây dưới bình minh" width="600" height="800" loading="lazy" decoding="async" fetchpriority="low" />
     <figcaption><strong>Một lần nữa tin vào cuộc gặp gỡ</strong><br>Sau khi một mối quan hệ khép lại, sau quá trình hồi phục và công cuộc sắp xếp lại cuộc sống, Hàn Tiên Khải đã bắt đầu một mối quan hệ mới. Bắt đầu lại không xóa đi quá khứ, nhưng cho thấy cuộc sống vẫn có thể tiếp tục lớn lên.</figcaption>
   </figure>
   <figure class="latest-update">
-    <img class="latest-update-visit-photo" src="./docs/assets/latest/current-qwen.jpg" alt="Han Xiankai viewing a Qwen display during a visit to Alibaba" width="1706" height="1279" loading="lazy" decoding="async" fetchpriority="low" />
+    <img class="latest-update-visit-photo" src="./docs/assets/latest/chibi-ai-visit.svg" alt="Minh họa chibi đứng ngắm màn hình trưng bày AI" width="800" height="600" loading="lazy" decoding="async" fetchpriority="low" />
     <figcaption><strong>Ghé thăm Alibaba</strong><br>Tôi đã đến thăm Alibaba để tìm hiểu về Qwen tại khu trưng bày của họ.</figcaption>
   </figure>
 </div>

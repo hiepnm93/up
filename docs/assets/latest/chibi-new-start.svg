@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-label="Chibi cầm chậu mầm cây dưới bình minh">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe3c2"/>
+      <stop offset="0.6" stop-color="#ffd0dc"/>
+      <stop offset="1" stop-color="#e8ddff"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#sky)"/>
+  <!-- sun -->
+  <circle cx="300" cy="300" r="150" fill="#fff4d6"/>
+  <circle cx="300" cy="300" r="110" fill="#ffe08a"/>
+  <!-- clouds -->
+  <g fill="#fff" opacity="0.85">
+    <ellipse cx="110" cy="150" rx="60" ry="22"/><ellipse cx="145" cy="135" rx="38" ry="24"/>
+    <ellipse cx="480" cy="210" rx="70" ry="24"/><ellipse cx="455" cy="193" rx="40" ry="26"/>
+  </g>
+  <!-- hill -->
+  <path d="M0 640 Q300 560 600 640 V800 H0Z" fill="#b9e3a8"/>
+  <path d="M0 690 Q300 630 600 700 V800 H0Z" fill="#9fd48c"/>
+  <!-- flowers -->
+  <g fill="#ff9fb8"><circle cx="80" cy="700" r="8"/><circle cx="520" cy="720" r="8"/><circle cx="470" cy="690" r="6"/><circle cx="130" cy="740" r="6"/></g>
+
+  <!-- body -->
+  <path d="M235 560 Q300 520 365 560 L380 680 Q300 700 220 680Z" fill="#6c8cff"/>
+  <!-- legs -->
+  <rect x="255" y="675" width="32" height="50" rx="14" fill="#3b4a7a"/>
+  <rect x="313" y="675" width="32" height="50" rx="14" fill="#3b4a7a"/>
+  <ellipse cx="268" cy="728" rx="26" ry="13" fill="#fff"/>
+  <ellipse cx="332" cy="728" rx="26" ry="13" fill="#fff"/>
+  <!-- head -->
+  <circle cx="300" cy="420" r="120" fill="#ffd9c0"/>
+  <!-- hair -->
+  <path d="M180 420 Q175 290 300 285 Q425 290 420 420 Q410 360 360 345 Q330 380 270 360 Q230 375 210 350 Q185 380 180 420Z" fill="#2f2a3a"/>
+  <path d="M290 290 Q300 255 330 262 Q312 275 310 292Z" fill="#2f2a3a"/>
+  <!-- eyes -->
+  <ellipse cx="255" cy="435" rx="17" ry="22" fill="#2f2a3a"/>
+  <ellipse cx="345" cy="435" rx="17" ry="22" fill="#2f2a3a"/>
+  <circle cx="261" cy="427" r="6" fill="#fff"/>
+  <circle cx="351" cy="427" r="6" fill="#fff"/>
+  <!-- blush + smile -->
+  <ellipse cx="225" cy="475" rx="20" ry="10" fill="#ff9fb0" opacity="0.7"/>
+  <ellipse cx="375" cy="475" rx="20" ry="10" fill="#ff9fb0" opacity="0.7"/>
+  <path d="M282 478 Q300 496 318 478" stroke="#2f2a3a" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- pot -->
+  <path d="M260 590 H340 L330 650 H270Z" fill="#d9825b"/>
+  <rect x="254" y="580" width="92" height="18" rx="6" fill="#e8956c"/>
+  <!-- sprout -->
+  <path d="M300 582 V545" stroke="#4caf50" stroke-width="7" stroke-linecap="round"/>
+  <path d="M300 562 Q262 556 248 530 Q284 526 300 562Z" fill="#66c26a"/>
+  <path d="M300 556 Q338 548 352 520 Q314 518 300 556Z" fill="#7fd27f"/>
+  <!-- arms holding pot -->
+  <ellipse cx="258" cy="610" rx="18" ry="16" fill="#ffd9c0"/>
+  <ellipse cx="342" cy="610" rx="18" ry="16" fill="#ffd9c0"/>
+
+  <!-- sparkles -->
+  <g fill="#fff">
+    <path d="M440 470 l8 -20 l8 20 l20 8 l-20 8 l-8 20 l-8 -20 l-20 -8Z"/>
+    <path d="M140 520 l5 -13 l5 13 l13 5 l-13 5 l-5 13 l-5 -13 l-13 -5Z"/>
+  </g>
+</svg>
