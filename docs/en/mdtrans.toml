@@ -1,0 +1,11 @@
+# md-translate config: docs/en/** -> docs/vi/**
+# Lives in docs/en so {path} is relative to this dir and nesting is preserved.
+source_lang = "en"
+targets = ["vi"]
+files = ["**/*.md"]
+out = "../{lang}/{path}"
+unit_heading_level = 3
+max_unit_chars = 6000
+protect = []
+workdir = ".mdtrans"
+concurrency = 6
